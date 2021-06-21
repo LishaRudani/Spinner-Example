@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 3"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    <Button
+        android:onClick="showToastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 4"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    <Button
+        android:onClick="openSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:onClick="openAutoComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoComplete"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:onClick="openInputTypeControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="InputTypeControl"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
